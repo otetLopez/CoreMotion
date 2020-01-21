@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51DDA8023D7A7FB00476BC8 /* XYZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51DDA7F23D7A7FB00476BC8 /* XYZViewController.swift */; };
 		F594AB4B23D79FDB00084E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594AB4A23D79FDB00084E6F /* AppDelegate.swift */; };
 		F594AB4D23D79FDB00084E6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594AB4C23D79FDB00084E6F /* SceneDelegate.swift */; };
 		F594AB4F23D79FDB00084E6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F594AB4E23D79FDB00084E6F /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F594AB4723D79FDB00084E6F /* CoreMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51DDA7F23D7A7FB00476BC8 /* XYZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZViewController.swift; sourceTree = "<group>"; };
+		F594AB4723D79FDB00084E6F /* CoreMotionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F594AB4A23D79FDB00084E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F594AB4C23D79FDB00084E6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F594AB4E23D79FDB00084E6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +50,7 @@
 		F594AB4823D79FDB00084E6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F594AB4723D79FDB00084E6F /* CoreMotion.app */,
+				F594AB4723D79FDB00084E6F /* CoreMotionDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				F594AB5323D79FDD00084E6F /* Assets.xcassets */,
 				F594AB5523D79FDD00084E6F /* LaunchScreen.storyboard */,
 				F594AB5823D79FDD00084E6F /* Info.plist */,
+				F51DDA7F23D7A7FB00476BC8 /* XYZViewController.swift */,
 			);
 			path = CoreMotion;
 			sourceTree = "<group>";
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F594AB4623D79FDB00084E6F /* CoreMotion */ = {
+		F594AB4623D79FDB00084E6F /* CoreMotionDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F594AB5B23D79FDD00084E6F /* Build configuration list for PBXNativeTarget "CoreMotion" */;
+			buildConfigurationList = F594AB5B23D79FDD00084E6F /* Build configuration list for PBXNativeTarget "CoreMotionDemo" */;
 			buildPhases = (
 				F594AB4323D79FDB00084E6F /* Sources */,
 				F594AB4423D79FDB00084E6F /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = CoreMotion;
+			name = CoreMotionDemo;
 			productName = CoreMotion;
-			productReference = F594AB4723D79FDB00084E6F /* CoreMotion.app */;
+			productReference = F594AB4723D79FDB00084E6F /* CoreMotionDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F594AB4223D79FDB00084E6F /* Build configuration list for PBXProject "CoreMotion" */;
+			buildConfigurationList = F594AB4223D79FDB00084E6F /* Build configuration list for PBXProject "CoreMotionDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F594AB4623D79FDB00084E6F /* CoreMotion */,
+				F594AB4623D79FDB00084E6F /* CoreMotionDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51DDA8023D7A7FB00476BC8 /* XYZViewController.swift in Sources */,
 				F594AB4F23D79FDB00084E6F /* ViewController.swift in Sources */,
 				F594AB4B23D79FDB00084E6F /* AppDelegate.swift in Sources */,
 				F594AB4D23D79FDB00084E6F /* SceneDelegate.swift in Sources */,
@@ -319,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F594AB4223D79FDB00084E6F /* Build configuration list for PBXProject "CoreMotion" */ = {
+		F594AB4223D79FDB00084E6F /* Build configuration list for PBXProject "CoreMotionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F594AB5923D79FDD00084E6F /* Debug */,
@@ -328,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F594AB5B23D79FDD00084E6F /* Build configuration list for PBXNativeTarget "CoreMotion" */ = {
+		F594AB5B23D79FDD00084E6F /* Build configuration list for PBXNativeTarget "CoreMotionDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F594AB5C23D79FDD00084E6F /* Debug */,
